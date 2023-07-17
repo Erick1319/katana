@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(178, 173, 173);
+}
+body{
+    background-image: url(./assets/fondobyn.jpg);
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.logos{
+    width: 50px;
+    cursor: pointer;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;    
+}
+
+.cardsspace{
+    gap:1rem
+}
