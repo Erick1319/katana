@@ -3,6 +3,7 @@
 }
 body{
     background-image: url(./assets/fondobyn.jpg);
+    background-color: black;
 }
 
 .logo{
@@ -23,5 +24,13 @@ body{
 }
 
 .cardsspace{
-    gap:1rem
+    gap:1rem;
+    border-radius: 8px;
+
+    
+    
+}
+
+.logos.active {
+    filter: brightness(1.5); 
 }
