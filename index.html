@@ -13,10 +13,9 @@
             <div class="p-2">      
             <img class="logo" src="./assets/Logo-Pokemon.png" alt="">
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-            </div>
+            <input class="form-control me-2"  id="pokemon" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" onclick="buscar()" >Search</button>
+              </div>
 
               <div class="collapse navbar-collapse align-center " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3  tipos ">
@@ -102,100 +101,18 @@
 
 <body>
  <div class="conteiner ">     
-    <div class="cardsspace row col-md-10 ">  
-     
-
-     <div class="card " style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
+    <div class=" cardsspace row col-md-10 ">  
+     <div id="pokeCarta" class="card" style="width: 18rem;">
+      <div id="imidagen" class="imagencontenedor">
+        <img id="imagen" src= "./assets/Pokebola.png" class="card-img-top" alt="...">
+      </div>
         <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <div id="idPokemon" class="card-title"></div>
+          <div id="nombrePokemon" class="nombre"></div>
+          <div id="tipoPokemon" class="tipo"></div> 
+          <div id="pokeStatus" class="estatus"></div>
         </div>
      </div>
-    
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-    
-
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-    
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-     </div>
-
-     <div class="card" style="width: 18rem;">
-        <img src="./assets/Pikachu.jpg" class="card-img-top" alt="...">
-        <div class="text-center card-body">
-          <h5 class="card-title">#25</h5>
-          <p class="card-text">Pikachu</p>
-          <p class="card-text">type: Electric</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-
-
-     
-     
   </div> 
 </div>
 </body>
