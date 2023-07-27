@@ -21,7 +21,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3  tipos ">
 
                   <li class="nav-item">
-                    <img class="logos" href="#" src="./assets/bug.png" alt="">
+                    <img class="logos" href="#" onclick="clasificar('planta')" src="./assets/bug.png" alt="">
                   </li>
 
                   <li class="nav-item">
@@ -91,7 +91,6 @@
                   <li class="nav-item">
                     <img class="logos" href="#" src="./assets/steel.png" alt="">
                   </li>
-                
                 </ul>
               </div>
             </div>
@@ -102,19 +101,16 @@
 <body>
  <div class="conteiner ">     
     <div class=" cardsspace row col-md-10 ">  
-     <div id="pokeCarta" class="card" style="width: 18rem;">
-      <div id="imidagen" class="imagencontenedor">
-        <img id="imagen" src= "./assets/Pokebola.png" class="card-img-top" alt="...">
-      </div>
-        <div class="text-center card-body">
-          <div id="idPokemon" class="card-title"></div>
-          <div id="nombrePokemon" class="nombre"></div>
-          <div id="tipoPokemon" class="tipo"></div> 
-          <div id="pokeStatus" class="estatus"></div>
+      <div id="pokeCarta" class="card" style="width: 18rem">
+        <h2 id="nombrePokemon"></h2>
+        <img id="imagen" src="./assets/pokebola.png" width="200px" alt="Imagen del Pokémon">
+        <p>Numero de Pokemon: <span id="idPokemon"></span></p>
+        <p>Tipo: <span id="tipoPokemon"></span></p>
+        <p>Estado: <span id="pokeStatus"></span></p>
         </div>
      </div>
   </div> 
-</div>
+  <div id="pokemon-container"></div>
 </body>
 
 
